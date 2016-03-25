@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>任务三，三栏式布局</title>
+		<meta name="keywords" content="三栏式布局 绝对定位 浮动 最小宽度" />
+		<meta name="description" content="" />
+		<style>
+		    html body{margin:0;padding: 0px;font-family: "微软雅黑";color: #000;}
+		    div{display: block;}
+			.show{height:500px;border:1px solid #999;background-color: #eee;margin:20px;padding: 20px;
+			position: relative;}
+			.show .left{width: 180px;height: 100px;border:1px solid #999;float: left;padding: 20px;background-color: #fff;}			
+			.show .left .left_name{width: 80px;height:150px;font-size: 20px;font-weight: bolder;margin:20px auto;float: right;}
+			.show .middle{border:1px solid #999;padding: 20px;background-color: #fff;position: absolute;left: 270px;right: 170px;min-width: 400px;}
+			.show .right{width: 80px;height: 420px;border:1px solid #999;padding: 20px;background-color: #fff;position: absolute;right: 20px;}
+			.show .right img{margin-bottom: 20px;}
+		</style>
+	</head>
+	<body>
+		<div class="show">
+				<div class="left">
+					<img class="left_logo" alt="our logo" src="img/Koala.jpg" width="80px" height="80px"/>
+					<div class="left_name">金手指</div>
+                </div>
+                
+				<div class="middle">
+					<h2>我们的团队介绍 </h2>
+					<h3>团队介绍 </h2>
+                    <p>我们是来自西安电子科技大学的金手指团队，
+                    	我们队由四个美女组成，
+                    	队名“金手指”意指希望我们每个人都有点石成金的手指，都能设计出绚丽多姿的页面。</p>                                          
+                    <h3>队员介绍 </h2>
+                    <p> 队员一：是西安电子科技大学通信工程学院研究生二年级的韩琳，主要负责页面排版和动态操作，喜欢。。。；</br>
+                    	队员二：是西安电子科技大学计算机学院研究生二年级的刘莹，主要负责页面内容设计，对页面设计情有独钟，更喜欢。。。；</br>
+                    	队员三：是西安电子科技大学计算机学院研究生二年级的任忍，。。。。</br>
+                    	队员四：是西安电子科技大学计算机学院研究生一年级的       ，。。。。</p>
+                                           
+				</div>
+				
+				<div class="right">
+					<img alt="our logo1" src="img/person1.jpg" width="80px" height="80px"/>
+					<img alt="our logo2" src="img/person2.jpg" width="80px" height="80px"/>
+					<img alt="our logo3" src="img/person3.jpg" width="80px" height="80px"/>
+					<img alt="our logo4" src="img/person4.jpg" width="80px" height="80px"/>
+				</div>			
+		</div>
+	</body>
+</html>
