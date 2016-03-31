@@ -1,0 +1,70 @@
+@charset "utf-8";
+body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
+h1, h2, h3, h4, table,th, td, input, button, p, select,
+ textarea {margin:0; padding:0;font-style: normal;font-family:"黑体";font-size:12px/22px "\5B8B\4F53";color: #000;}
+ul ,li{list-style: none;}
+/*背景*/
+.bgbody{width: 1500px;height:1700px;background: #555;padding-top: 140px;}
+/*内容*/
+.bgContent{width:980px;height: 1386px;background: #fff;margin:auto;}
+
+/*上面部分  上半部分*/
+.bgbody .bgContent .top{width:892px;height: 400px;margin:0 32px 10px 32px;}
+.bgbody .bgContent .top .top1{width:892px;height: 80px;position: relative;}
+.bgbody .bgContent .top .top1 .timeYearMouth{font-family:"黑体";font-size:12px;color:#d45d5c;position:absolute;bottom:25px;right: 32px;}
+.bgbody .bgContent .top .top1 .longLine{width:892px;height: 2px;background: #938e8c;}
+/*上面部分  下半部分*/
+.bgbody .bgContent .top .top2{width:892px;height: 310px;margin-top:20px;}
+.bgbody .bgContent .top .top2 .top2Left{width: 641px;height: 301px;float: left;position: relative;}
+.bgbody .bgContent .top .top2 .top2Left img{float: left;}
+.bgbody .bgContent .top .top2 .top2Left .top2Left1{width: 192px;height: 301px;background: #0f0;opacity: 0.3;position: absolute;top: 0;left: 0;}
+.bgbody .bgContent .top .top2 .top2Left .top2Left2{width: 192px;height: 301px;background: #f00;opacity: 0.3;position: absolute;top: 0;right: 0;}
+.bgbody .bgContent .top .top2 .top2Right{width:203px;height: 301px;float: left;margin-left: 40px;}
+.bgbody .bgContent .top .top2 .top2Right .shortLine{width:203px;height: 2px;background: #cc8091;}
+.bgbody .bgContent .top .top2 .top2Right .word1{font-family: "微软雅黑";font-size: 24px;color: #000;text-decoration: underline;}
+.bgbody .bgContent .top .top2 .top2Right .word1 p{margin-top: 10px;}
+.bgbody .bgContent .top .top2 .top2Right .word2{font-family: "楷体";font-size: 12px;color: #676767;margin-top: 10px;}
+.bgbody .bgContent .top .top2 .top2Right .word3{font-family: "微软雅黑";font-size: 106px;color: #75b86b;text-decoration: underline;font-style: italic;}
+.bgbody .bgContent .top .top2 .top2Right .word4{font-family: "微软雅黑";color: #cc8091;}
+.bgbody .bgContent .top .top2 .top2Right .word4 ul li{float: left;}
+
+/*中间部分*/
+.bgbody .bgContent .middle{width:892px;height: 250px;margin:30px 32px 0px 32px;}
+.bgbody .bgContent .middle ul li{width: 210px;height: 250px;float: left;margin-right: 20px;}
+.bgbody .bgContent .middle p{padding-top:16px;}
+.bgbody .bgContent .middle .word5{font-family: "微软雅黑";font-size: 16px;text-decoration: underline;font-weight: bold;}
+.bgbody .bgContent .middle .What{color:#418c59;}
+.bgbody .bgContent .middle .When{color: #d2994f;}
+.bgbody .bgContent .middle .How{color: #cc7680;}
+.bgbody .bgContent .middle .word6{font-size: 12px;line-height: 15px;letter-spacing: 2px;}
+.bgbody .bgContent .middle .introduction{font-family:"宋体";color: #767777;}
+.bgbody .bgContent .middle .timeIntro{font-family:"微软雅黑";color: #231815;opacity: 0.7;}
+.bgbody .bgContent .middle .doHow{font-family: "微软雅黑";color: #cd4a48;font-style: italic;}
+
+/*下面部分*/
+.bgbody .bgContent .bottom{width:892px;height: 550px;margin:0px 32px;}
+.bgbody .bgContent .bottom .bottomLeft{width:415px;height: 550px;float: left;}
+.bgbody .bgContent .bottom .bottomLeft .bottomLeftTop{font-family: "黑体";font-weight: bold;margin-bottom: 16px;}
+.bgbody .bgContent .bottom .bottomLeft .bottomLine{width:415px;height: 2px;background: #11456b;}
+.bgbody .bgContent .bottom .bottomLeft .textCrossImg{width:415px;height: 390px;font-family: "宋体";font-size: 12px;color: #767777;line-height: 19px;margin-top: 10px;}
+.bgbody .bgContent .bottom .bottomLeft .textCrossImg span{line-height: 70px;float:left}
+.bgbody .bgContent .bottom .bottomLeft .textCrossImg img{float: right;margin: 5px 0 0px 5px;}
+.bgbody .bgContent .bottom .bottomRight{width:450px;height: 550px;float: left;margin-left: 20px;position: relative;}
+.bgbody .bgContent .bottom .bottomRight .bottomRightShadow{width:458px;height: 61px;background:#000;opacity: 0.3;position:absolute;top: 214px;left: 0;}
+.bgbody .bgContent .bottom .bottomRight .bottomRightShadow .shuLine{width:3px;height: 44px;background:#72b16a;margin: 8px 15px 8px 40px;opacity: 1;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomRightShadow .biaoti{font-family:"微软雅黑";font-size: 26px;color: #fff;margin:15px 0px;opacity: 1;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomRightShadow .xiaobiaoti{font-family:"微软雅黑";font-size: 12px;color: #72B16A;margin-top:25px;margin-left: 15px;font-style: italic;letter-spacing:2px;opacity: 1;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomRightBot{width:458px;height: 300px;background:palegreen;}
+.bgbody .bgContent .bottom .bottomRight ul{margin:0 0 0 40px;}
+.bgbody .bgContent .bottom .bottomRight ul li{font-family:"宋体";font-size: 16px;color: #5a5b5b;line-height: 30px;list-style:circle;}
+.bgbody .bgContent .bottom .bottomRight ul li span{font-size: 12px;font-style: italic;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinLeft{width: 260px;height: 177px;background: #D45D5C;margin:30px 0px;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinLeft .number0{font-family:"微软雅黑";font-size: 110px;color: #fff;margin-right:10px;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinLeft .shuLine2{width: 2px;height: 86px;background: #fff;float: left;margin-top: 35px;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinLeft .contentOne{width: 158px;font-family:"黑体";font-size: 21px;color: #fff;line-height: 24px;margin-left:10px;margin-top: 35px;float: left;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight{width: 185px;height: 160px;float: left;margin-top: 30px;margin-left: 10px;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin{font-family:"黑体";font-size: 14px;color: #000;line-height: 16px;font-style: italic;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin .yinhao{font-size: 72px;color: #D45D5C;}
+
+.bgbody .bgContent .finallyLine{width:892px;height: 1px;background: #938e8c;margin:70px 32px 0px 32px;}
+.bgbody .bgContent .aItem{margin-top: 5px;margin-left: 845px;font-family:"黑体";font-size: 12px;color: #d45d5c;}
