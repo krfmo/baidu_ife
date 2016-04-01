@@ -1,6 +1,6 @@
 @charset "utf-8";
 body, div,iframe, ul, ol, dl, dt, dd, li, dl, 
-h1, h2, h3, h4, table,th, td, input, button, p, select,
+h1, h2, h3, h4, table,th, td, input, button, p, span, select,
  textarea {margin:0; padding:0;font-style: normal;font-family:"黑体";font-size:12px/22px "\5B8B\4F53";color: #000;}
 ul ,li{list-style: none;}
 /*背景*/
@@ -63,8 +63,9 @@ ul ,li{list-style: none;}
 .bgbody .bgContent .bottom .bottomRight .bottomFinLeft .shuLine2{width: 2px;height: 86px;background: #fff;float: left;margin-top: 35px;}
 .bgbody .bgContent .bottom .bottomRight .bottomFinLeft .contentOne{width: 158px;font-family:"黑体";font-size: 21px;color: #fff;line-height: 24px;margin-left:10px;margin-top: 35px;float: left;}
 .bgbody .bgContent .bottom .bottomRight .bottomFinRight{width: 185px;height: 160px;float: left;margin-top: 30px;margin-left: 10px;}
-.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin{font-family:"黑体";font-size: 14px;color: #000;line-height: 16px;font-style: italic;}
-.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin .yinhao{font-size: 72px;color: #D45D5C;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin{font-family:"黑体";font-size: 14px;color: #000;line-height: 16px;font-style: italic;margin-top: 25px;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin .yinhao1{font-size: 72px;color: #D45D5C;float: left;margin-top: 15px;}
+.bgbody .bgContent .bottom .bottomRight .bottomFinRight .contentFin .yinhao2{font-size: 72px;color: #D45D5C;float: right;margin-top: 25px;margin-right: 65px;}
 
 .bgbody .bgContent .finallyLine{width:892px;height: 1px;background: #938e8c;margin:70px 32px 0px 32px;}
 .bgbody .bgContent .aItem{margin-top: 5px;margin-left: 845px;font-family:"黑体";font-size: 12px;color: #d45d5c;}
