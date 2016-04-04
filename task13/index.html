@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>IFE JavaScript Task 13</title>
+		<style>
+			body{font-family: "微软雅黑";font-size: 12px;}
+		</style>
+	</head>
+	<body>
+		<lable>今天西安的天气是：<input type="text" id="inCon"></label>
+		<button id="inButton">确认填写</button><br/>
+		<div>您输入的值是：<span id="myContent">默认值</span></div>
+		
+		<script type="text/javascript">
+			(function(){
+				var buttAdd=document.getElementById("inButton");//获取按钮
+				//为按钮添加点击事件
+				buttAdd.onclick=function(){
+					var mycon=document.getElementById("inCon").value;
+					if(mycon){
+						document.getElementById("myContent").innerText=mycon;//显示输入的值
+					}
+				};
+			})();//函数自执行一次
+		</script>
+	</body>
+</html>
