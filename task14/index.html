@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 14</title>
+    <style>
+		body{font-family: "微软雅黑";font-size: 13px;}
+		.aqi-list{list-style:none;}
+	  </style>
+  </head>
+<body>
+  <h3>污染城市列表</h3>
+  <ul id="aqi-list">
+<!--   
+    <li>第一名：福州（样例），10</li>
+  	<li>第二名：福州（样例），10</li> -->
+  </ul>
+
+<script type="text/javascript">
+
+var aqiData = [
+  ["北京", 90],
+  ["上海", 50],
+  ["福州", 10],
+  ["广州", 50],
+  ["成都", 90],
+  ["西安", 100]
+];
+
+(function () {
+  /*
+  在注释下方编写代码
+  遍历读取aqiData中各个城市的数据
+  将空气质量指数大于60的城市显示到aqi-list的列表中
+  */
+    var num;
+    var ulList = document.getElementById("aqi-list");
+    //对所有的数据进行从大到小排序
+    aqiData.sort(function(a,b){
+        return b[1]-a[1];
+    });
+        
+    for(var i=0;i < aqiData.length;i++){
+    	num = aqiData[i];
+    	if(num[1] > 60){
+    		ulList.innerHTML+="<li>第"+(i+1)+"名: "+num[0]+"，"+num[1]+"</li>";
+    	} 
+    	else
+    	    break;
+    }
+})();
+
+</script>
+</body>
+</html>
